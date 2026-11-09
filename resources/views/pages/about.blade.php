@@ -9,6 +9,4 @@
 @endsection
 
 @section('content')
-<div>hhjkh</div>
-    <h1>About</h1>
 @endsection
