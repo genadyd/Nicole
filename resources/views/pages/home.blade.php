@@ -9,6 +9,5 @@
 @endsection
 
 @section('content')
-<div>hhjkh</div>
-    <h1>Home</h1>
+<x-layouts.hero></x-layouts.hero>
 @endsection
