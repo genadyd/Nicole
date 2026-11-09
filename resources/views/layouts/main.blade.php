@@ -9,13 +9,12 @@
     <title>Document</title>
 </head>
 <body>
-<main class="fixed bg-[#F5EFE7] h-screen w-screen top-0">
-<x-layouts.header></x-layouts.header>
-    <div class="scrolled bg-transparent z-10 flex relative flex-col">
-        @yield('content')
-    </div>
-</main>
+<div class="fixed bg-[#F5EFE7] z-0  h-screen w-screen top-0">
 
+</div>
+<main class="scrolled bg-transparent z-10 flex relative flex-col">
+    @yield('content')
+</main>
 
 </body>
 </html>
